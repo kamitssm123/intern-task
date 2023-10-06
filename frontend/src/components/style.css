@@ -1,0 +1,45 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+.button{
+    background-color: #282c34;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+.table-heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+.cell{
+    padding: 10px;
+    border: 1px solid black;
+    height: 60px;
+    width: 200px;
+}
+.table-row{
+    display: flex;
+    flex-direction: row;
+    margin-left: 60px;
+}
+.heading-element{
+    display: flex;
+    flex-direction: column;
+}
+.sub-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 60px;
+}
+
